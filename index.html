@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <section class="container">
+            <header>Formulario Cadastro</header>
+            <form action="#" class="form">
+                <div class="input-box">
+                    <label for="">Nome completo</label>
+                    <input
+                        type="text"
+                        placeholder="Digite seu nome completo"
+                        required
+                    />
+                </div>
+
+                <div class="input-box">
+                    <label for="">Email</label>
+                    <input
+                        type="text"
+                        placeholder="Digite seu Email"
+                        required
+                    />
+                </div>
+
+                <div class="column">
+                    <div class="input-box">
+                        <label for="">Numero de telefone</label>
+                        <input
+                            type="text"
+                            placeholder="Digite seu numero de telefone"
+                            required
+                        />
+                    </div>
+                    <div class="input-box">
+                        <label for="">Data de nascimento</label>
+                        <input type="date" />
+                    </div>
+                </div>
+
+                <div class="gender-box">
+                    <h3>Gender</h3>
+                    <div class="gender-option">
+                        <div class="gender">
+                            <input
+                                type="radio"
+                                id="check-male"
+                                name="gender"
+                                checked
+                            />
+                            <label for="check-male">Masculino</label>
+
+                            <input
+                                type="radio"
+                                id="check-famale"
+                                name="gender"
+                            />
+                            <label for="check-famale">Feminino</label>
+
+                            <input
+                                type="radio"
+                                id="check-other"
+                                name="gender"
+                            />
+                            <label for="check-other"
+                                >Prefiro não informar</label
+                            >
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-box addres">
+                    <label for="">Endereço</label>
+                    <input
+                        type="text"
+                        placeholder="Digite o endereço da rua"
+                        required
+                    />
+                    <input
+                        type="text"
+                        placeholder="Digite o complemento"
+                        required
+                    />
+
+                    <div class="column">
+                        <div class="select-box">
+                            <select>
+                                <option hidden value="">Estado</option>
+                                <option value="">São Paulo</option>
+                                <option value="">Rio de Janeiro</option>
+                                <option value="">Bahia</option>
+                                <option value="">Belo Horizonte</option>
+                            </select>
+                        </div>
+                        <input
+                            type="text"
+                            placeholder="Digite sua cidade"
+                            required
+                        />
+                    </div>
+
+                    <div class="column">
+                        <input
+                            type="text"
+                            placeholder="Digite seu bairro"
+                            required
+                        />
+
+                        <input
+                            type="number"
+                            placeholder="Digite seu CEP"
+                            required
+                        />
+                    </div>
+                </div>
+
+                <button>Enviar</button>
+            </form>
+        </section>
+    </body>
+</html>
